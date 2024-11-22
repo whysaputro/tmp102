@@ -1,0 +1,4 @@
+dependencies:
+  whysaputro/tmp102:
+    version: "*"
+    override_path: "../../../"
