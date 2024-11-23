@@ -1,4 +1,4 @@
-version: 1.0.0
+version: 1.0.1
 description: Driver for the TMP102 temperature sensor using ESP-IDF framework.
 url: https://github.com/whysaputro/tmp102
 documentation: https://github.com/whysaputro/tmp102/tree/main/README.md
