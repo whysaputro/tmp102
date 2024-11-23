@@ -20,12 +20,6 @@
 
 #include "esp_err.h"
 
-/** TMP102 Register Addresses */
-#define TMP102_TEMP_REG 0x00   /**< Temperature register */
-#define TMP102_CONFIG_REG 0x01 /**< Configuration register */
-#define TMP102_T_LOW_REG 0x02  /**< Low temperature threshold register */
-#define TMP102_T_HIGH_REG 0x03 /**< High temperature threshold register */
-
 /**
  * @brief TMP102 configuration structure.
  *
