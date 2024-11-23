@@ -506,7 +506,7 @@ esp_err_t tmp102_set_extended_mode(tmp102_extended_mode_t mode)
    /* Validate input range */
    if (mode < 0 || mode > 3)
    {
-      ESP_LOGE(TAG, "tmp102_set_extended_mode: Invalid fault_setting value: %d", mode);
+      ESP_LOGE(TAG, "tmp102_set_extended_mode: Invalid mode value: %d", mode);
       return ESP_ERR_INVALID_ARG;
    }
 
